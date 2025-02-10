@@ -16,7 +16,7 @@ const nav = () => {
         <nav>
           <ul className="flex items-center space-x-5">
             {/* <li className="text-gray-700 hover:text-blue-500 transition-all cursor-pointer"><Link href="#home">Home</Link></li> */}
-            <li className="text-gray-700 hover:text-green-500 transition-all cursor-pointer"><Link href="#philosophy">The Philosophy</Link></li>
+            <li className="text-gray-700 hover:text-green-500 transition-all cursor-pointer"><Link href="/#philosophy">The Philosophy</Link></li>
             <li className="text-gray-700 hover:text-yellow-500 transition-all cursor-pointer"><Link href="#family-wc">Family Wellness Center</Link></li>
             <li className="text-gray-700 hover:text-purple-500 transition-all cursor-pointer"><Link href="#programs">Programs</Link></li>
             <li className="text-gray-700 hover:text-red-500 transition-all cursor-pointer"><Link href="#coaches">Coaches</Link></li>
