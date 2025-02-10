@@ -1,12 +1,12 @@
 import AnimatedSection from './AnimatedSection';
 import { motion } from 'framer-motion';
 
-const mindfulnessImage = '/mindfulness.jpg';
-const nutritionImage = '/nutrition.jpg';
-const fitnessImage = '/fitness.jpg';
-const yogaImage = '/yoga.jpg';
-const mentalHealthImage = '/mental-health.jpg';
-const wight = '/wight loss.jpg';
+const mindfulnessImage = './mindfulness.jpg';
+const nutritionImage = './nutrition.jpg';
+const fitnessImage = './fitness.jpg';
+const yogaImage = './yoga.jpg';
+const mentalHealthImage = './mental-health.jpg';
+const wight = './wight loss.jpg';
 
 export default function Programs() {
   return (

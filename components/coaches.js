@@ -3,27 +3,27 @@ import AnimatedSection from './AnimatedSection';
 const Data = [
   {
     id: "1",
-    img: "/c1.png",
+    img: "./c1.png",
     name: "Budda Sreekanth Reddy", // Fixed typo: `namme` -> `name`
   },
   {
     id: 2,
-    img: "/c2.jpg",
+    img: "./c2.jpg",
     name: "Somesh Saini"
   },
   {
     id: 3,
-    img: "/c3.png",
+    img: "./c3.png",
     name: "Dr. Swati Sharma"
   },
   {
     id: 4,
-    img: "/c4.jpg", // Added file extension
+    img: "./c4.jpg", // Added file extension
     name: "Dr. Harshit Jain"
   },
   {
     id: 5,
-    img: "/c5.jpg",
+    img: "./c5.jpg",
     name: "Dr. Shambhu Reddy"
   }
 ];

@@ -11,7 +11,7 @@ const nav = () => {
     
       <header className="flex justify-end items-center p-5 fixed top-0 w-full bg-white shadow-md z-50">
         <h1 id="nav-title" className="mr-auto text-xl">
-          <a href="#" className="text-gray-800 hover:text-teal-400 transition-all">DEV.TO</a>
+          <a href="#hii" className="text-gray-800 hover:text-teal-400 transition-all">DEV.TO</a>
         </h1>
         <nav>
           <ul className="flex items-center space-x-5">

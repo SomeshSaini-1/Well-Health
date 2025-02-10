@@ -11,10 +11,10 @@ import Contact from '@/components/contact';
 import Philosophy from '@/components/philosophy';
 
 const images = [
-  '/03.png',
-  '/04.jpg', // Update these paths to your image paths
-  '/05.jpg',
-  '/02.png'
+  './03.png',
+  './04.jpg', // Update these paths to your image paths
+  './05.jpg',
+  './02.png'
   // Add more image paths as needed
 ];
 

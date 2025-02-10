@@ -8,7 +8,7 @@ export default function Home() {
     <div>
       {/* Family Wellness Center Section */}
       <section id="family-wc" className="min-h-screen flex flex-col items-center bg-yellow-50 mx-10 my-20  pt-20"  style={{
-          backgroundImage:'url("/flower.png")',
+          backgroundImage:'url("./flower.png")',
           backgroundPosition:"left",
           backgroundRepeat:"no-repeat"
         }}>
