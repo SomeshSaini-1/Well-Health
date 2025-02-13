@@ -57,7 +57,7 @@ export default function Home() {
                   className="slideshow"
                 >
                   <img src={images[currentIndex]} alt={`Slide ${currentIndex}`} className="slide h-[20rem] lg:h-auto" />
-                  <style jsx>{`
+                  {/* <style jsx>{`
                     .slide {
                       max-width: 30rem;
                       width: auto;
@@ -66,7 +66,27 @@ export default function Home() {
                       border-radius: 10px;
                       box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
                     }
+                  `}</style> */}
+                  <style jsx>{`
+                    .slide {
+                      width: 100%;
+                      max-width: 30rem;
+                      height: 20rem;
+                      object-fit: cover;
+                      border-radius: 10px;
+                      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+                    }
+
+                    .slideshow {
+                      display: flex;
+                      align-items: center;
+                      justify-content: center;
+                      width: 30rem;
+                      height: 20rem;
+                      overflow: hidden;
+                    }
                   `}</style>
+
                 </motion.div>
               </AnimatePresence>
             </div>
