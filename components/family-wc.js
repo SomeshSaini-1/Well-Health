@@ -6,7 +6,7 @@ export default function FamilyWC() {
   return (
     <div>
       {/* Family Wellness Center Section */}
-      <section id="family-wc" className="min-h-3/4 lg:min-h-screen flex flex-col items-center bg-yellow-50 mx-10 my-20  pt-20"  style={{
+      <section id="family-wc" className="min-h-9/10 lg:min-h-screen flex flex-col items-center bg-yellow-50 mx-10 my-20  pt-20"  style={{
           backgroundImage:'url("./flower.png")',
           backgroundPosition:"left",
           backgroundRepeat:"no-repeat"
@@ -42,7 +42,7 @@ export default function FamilyWC() {
             </div>
           </AnimatedSection>
 
-          <AnimatedSection delay={0.5}>
+          <AnimatedSection delay={0.7}>
             <div className="bg-white hover:p-10 min-h-64 p-8 rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300 text-center">
               <h6 className="mb-6 text-2xl font-semibold text-blue-800">Accessibility is key</h6>
               <p className="text-gray-600 leading-relaxed">
@@ -52,7 +52,7 @@ export default function FamilyWC() {
             </div>
           </AnimatedSection>
 
-          <AnimatedSection delay={0.5}>
+          <AnimatedSection delay={0.9}>
             <div className="bg-white hover:p-10 minn-h-64 p-8 rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300 text-center">
               <h6 className="mb-6 text-2xl font-semibold text-blue-800">A personalized approach</h6>
               <p className="text-gray-600 leading-relaxed">
