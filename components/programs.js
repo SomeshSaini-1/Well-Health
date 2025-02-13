@@ -70,7 +70,7 @@ export default function Programs() {
             </AnimatedSection>
           </div>
 
-          <div className="mt-10 min-h-screen w-full" style={{
+          <div className="mt-10 min-h-3/4 lg:min-h-screen w-full" style={{
             backgroundSize: "3rem 3rem",
             backgroundImage: `radial-gradient(
               circle,
