@@ -1,29 +1,30 @@
 "use client"
-import React from 'react'
+import React,{useState} from 'react'
 import Link from 'next/link';
 import { FaFacebook, FaInstagram, FaBars} from "react-icons/fa";
 
 const Nav = () => {
+  const [show,setshow] = useState();
   return (
     <header className="flex justify-end items-center p-5 fixed top-0 w-full bg-white shadow-md z-50">
       <h1 id="nav-title" className="mr-auto text-xl">
         <a href="#hii" className="text-gray-800 hover:text-teal-400 transition-all">DEV.TO</a>
       </h1>
-      <nav className='lg:block hidden'>
+      <nav className={`lg:block ${show ?'hidden':'block'} lg:absolute lg:top-8 lg:w-full lg:text-2xl`}>
         <ul className="flex flex-col lg:flex-row items-center space-x-5">
-          <li className="text-gray-700 hover:text-green-500 transition-all cursor-pointer">
+          <li className="text-gray-700 hover:text-green-500 transition-all cursor-pointer ">
             <a href="#philosophy">The Philosophy</a>
           </li>
-          <li className="text-gray-700 hover:text-yellow-500 transition-all cursor-pointer">
+          <li className="text-gray-700 hover:text-yellow-500 transition-all cursor-pointer ">
             <a href="#family-wc">Family Wellness Center</a>
           </li>
-          <li className="text-gray-700 hover:text-purple-500 transition-all cursor-pointer">
+          <li className="text-gray-700 hover:text-purple-500 transition-all cursor-pointer ">
             <a href="#programs">Programs</a>
           </li>
-          <li className="text-gray-700 hover:text-red-500 transition-all cursor-pointer">
+          <li className="text-gray-700 hover:text-red-500 transition-all cursor-pointer ">
             <a href="#coaches">Coaches</a>
           </li>
-          <li className="text-gray-700 hover:text-indigo-500 transition-all cursor-pointer">
+          <li className="text-gray-700 hover:text-indigo-500 transition-all cursor-pointer ">
             <a href="#contact">Contact</a>
           </li>
           <li className="text-gray-700 hover:text-teal-400 transition-all cursor-pointer">
@@ -39,7 +40,7 @@ const Nav = () => {
         </ul>
       </nav>
       <div className='block lg:hidden' id="bars">
-        <FaBars/>
+        <FaBars onClick={()=> setshow(!show)}/>
       </div>
     </header>
   )
