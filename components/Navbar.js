@@ -18,7 +18,7 @@ const Nav = () => {
       </div>
 
       {/* Navigation Links */}
-      <nav className={`absolute lg:relative top-16 left-0 w-full lg:w-auto bg-white lg:bg-transparent shadow-lg lg:shadow-none transition-all ${show ? 'block' : 'hidden'} lg:flex`}>
+      <nav className={`absolute lg:relative lg:top-0 top-16 left-0 w-full lg:w-auto bg-white lg:bg-transparent shadow-lg lg:shadow-none transition-all ${show ? 'block' : 'hidden'} lg:flex`}>
         <ul className="flex flex-col lg:flex-row items-center space-y-4 lg:space-y-0 lg:space-x-5 p-5 lg:p-0">
           <li className="text-gray-700 hover:text-green-500 transition-all cursor-pointer">
             <a href="#philosophy">The Philosophy</a>
