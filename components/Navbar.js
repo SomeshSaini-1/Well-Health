@@ -1,7 +1,7 @@
 "use client"
 import React from 'react'
 import Link from 'next/link';
-import { FaFacebook, FaInstagram } from "react-icons/fa";
+import { FaFacebook, FaInstagram, FaBars} from "react-icons/fa";
 
 const Nav = () => {
   return (
@@ -9,7 +9,7 @@ const Nav = () => {
       <h1 id="nav-title" className="mr-auto text-xl">
         <a href="#hii" className="text-gray-800 hover:text-teal-400 transition-all">DEV.TO</a>
       </h1>
-      <nav>
+      <nav className='lg:block hidden'>
         <ul className="flex flex-col lg:flex-row items-center space-x-5">
           <li className="text-gray-700 hover:text-green-500 transition-all cursor-pointer">
             <a href="#philosophy">The Philosophy</a>
@@ -38,6 +38,9 @@ const Nav = () => {
           </li>
         </ul>
       </nav>
+      <div className='block lg:hidden' id="bars">
+        <FaBars/>
+      </div>
     </header>
   )
 }
