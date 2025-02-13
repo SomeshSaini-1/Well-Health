@@ -5,12 +5,11 @@ export default function Contact() {
   return (
     <>
       {/* Contact Section */}
-      <section id="contact" className="w-full min-h-screen flex flex-col items-center justify-center bg-indigo-50 py-20">
+      <section id="contact" className="min-h-screen flex flex-col items-center justify-center bg-indigo-50 py-20">
         <AnimatedSection delay={0.4}>
-          <div className="bg-white p-10 rounded-lg shadow-2xl max-w-6xl w-full
-           mx-4 flex flex-col lg:flex-row justify-between items-center gap-10">
+          <div className="bg-white p-10 rounded-lg shadow-2xl max-w-6xl w-full mx-4 flex flex-col lg:flex-row justify-between items-center gap-10">
             {/* Contact Form */}
-            <div className=" lg:w-1/2">
+            <div className="w-full lg:w-1/2">
               <h1 className="text-4xl font-bold text-blue-800 mb-6">Contact Us</h1>
               <p className="text-xl text-gray-600 mb-8">
                 Reach out to us for any inquiries or support. We're here to help!

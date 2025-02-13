@@ -6,7 +6,7 @@ export default function FamilyWC() {
   return (
     <div>
       {/* Family Wellness Center Section */}
-      <section id="family-wc" className="w-full min-h-screen flex flex-col items-center bg-yellow-50 lg:mx-10 my-20 pt-20"  style={{
+      <section id="family-wc" className="w-full min-h-screen flex flex-col items-center bg-yellow-50 mx-10 my-20 pt-20"  style={{
           backgroundImage:'url("./flower.png")',
           backgroundPosition:"left",
           backgroundRepeat:"no-repeat"
