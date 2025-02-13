@@ -25,7 +25,7 @@ export default function Home() {
  
   return (
     <div>
-          <main id="philosophy" className='min-h-screen grid grid-cols-1 lg:grid-rows-2 lg:grid-cols-2 items-center justify-center mx-10 my-20 pt-20'>
+          <main id="philosophy" className='min-h-screen w-full grid grid-cols-1 lg:grid-rows-2 lg:grid-cols-2 items-center justify-center mx-10 my-20 pt-20'>
 
             <motion.div
               initial={{ opacity: 0 }}
