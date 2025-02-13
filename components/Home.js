@@ -46,7 +46,7 @@ export default function Home() {
               </p>
             </motion.div>
 
-            <div className='flex items-center justify-center h-auto lg:min-h-[25rem]'>
+            <div className='flex items-center justify-center lg:h-auto min-h-[25rem]'>
               <AnimatePresence mode='wait'>
                 <motion.div
                   key={currentIndex}
@@ -56,7 +56,7 @@ export default function Home() {
                   transition={{ duration: 0.8 }}
                   className="slideshow"
                 >
-                  <img src={images[currentIndex]} alt={`Slide ${currentIndex}`} className="slide" />
+                  <img src={images[currentIndex]} alt={`Slide ${currentIndex}`} className="slide h-[20rem] lg:h-auto" />
                   <style jsx>{`
                     .slide {
                       max-width: 30rem;
