@@ -30,7 +30,7 @@ const Data = [
 
 export default function Coaches() {
   return (
-      <section id="coaches" className="min-h-screen flex flex-col items-center bg-red-50  mx-10 my-20  pt-20">
+      <section id="coaches" className="min-h-3/4 lg:min-h-screen flex flex-col items-center bg-red-50  mx-10 my-20  pt-20">
         <AnimatedSection delay={0.4}>
           <div className="max-w-4xl text-center">
             <h1 className="font-bold text-4xl text-blue-800 mb-6">Meet Our Coaches</h1>
