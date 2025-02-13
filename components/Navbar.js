@@ -18,9 +18,9 @@ const nav = () => {
             {/* <li className="text-gray-700 hover:text-blue-500 transition-all cursor-pointer"><Link href="#home">Home</Link></li> */}
             <li className="text-gray-700 hover:text-green-500 transition-all cursor-pointer"><Link href="/#philosophy">The Philosophy</Link></li>
             <li className="text-gray-700 hover:text-yellow-500 transition-all cursor-pointer"><Link href="/#family-wc">Family Wellness Center</Link></li>
-            <li className="text-gray-700 hover:text-purple-500 transition-all cursor-pointer"><Link href="#programs">Programs</Link></li>
-            <li className="text-gray-700 hover:text-red-500 transition-all cursor-pointer"><Link href="#coaches">Coaches</Link></li>
-            <li className="text-gray-700 hover:text-indigo-500 transition-all cursor-pointer"><Link href="#contact">Contact</Link></li>
+            <li className="text-gray-700 hover:text-purple-500 transition-all cursor-pointer"><Link href="/#programs">Programs</Link></li>
+            <li className="text-gray-700 hover:text-red-500 transition-all cursor-pointer"><Link href="/#coaches">Coaches</Link></li>
+            <li className="text-gray-700 hover:text-indigo-500 transition-all cursor-pointer"><Link href="/#contact">Contact</Link></li>
             <li className="text-gray-700 hover:text-teal-400 transition-all cursor-pointer"> <Link href={"https://www.facebook.com/share/1FUzGZWZz3/"}> <FaFacebook /></Link></li>
             {/* <li className="text-gray-700 hover:text-teal-400 transition-all cursor-pointer"> <Link href={""}> <FaLinkedin /></Link></li> */}
             <li className="text-gray-700 hover:text-teal-400 transition-all cursor-pointer"> <Link href={"https://www.instagram.com/yuktaahara?igsh=anM3d2twa3V0cWc0"}> <FaInstagram/></Link></li>
