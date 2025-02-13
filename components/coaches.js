@@ -30,8 +30,6 @@ const Data = [
 
 export default function Coaches() {
   return (
-    <div>
-      {/* Coaches Section */}
       <section id="coaches" className="min-h-screen flex flex-col items-center bg-red-50  mx-10 my-20  pt-20">
         <AnimatedSection delay={0.4}>
           <div className="max-w-4xl text-center">
@@ -57,6 +55,6 @@ export default function Coaches() {
           ))}
         </div>
       </section>
-    </div>
+   
   );
 }
