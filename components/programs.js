@@ -9,7 +9,7 @@ const wight = './wight loss.jpg';
 
 export default function Programs() {
   return (
-        <section id="programs" className="w-full min-h-screen flex flex-col justify-center items-center bg-purple-50 mx-10 my-20 pt-20">
+        <section id="programs" className="w-full min-h-screen flex flex-col justify-center items-center bg-purple-50 px-10 my-20 pt-20">
           <AnimatedSection delay={0.6}>
             <h5 className="font-bold text-4xl text-blue-800 mb-6 mt-10">
               Explore our range of health and wellness programs.

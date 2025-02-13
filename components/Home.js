@@ -25,7 +25,7 @@ export default function Home() {
  
   return (
           <main id="philosophy" className='w-full min-h-screen gap-4
-           grid grid-cols-1 lg:grid-rows-2 lg:grid-cols-2 items-center justify-center mx-10 my-20 pt-20'>
+           grid grid-cols-1 lg:grid-rows-2 lg:grid-cols-2 items-center justify-center px-10 my-20 pt-20'>
 
             <motion.div
               initial={{ opacity: 0 }}

@@ -5,7 +5,7 @@ export default function Contact() {
   return (
     <>
       {/* Contact Section */}
-      <section id="contact" className="w-full min-h-3/4 lg:min-h-screen flex flex-col items-center bg-red-50  mx-10 my-20  pt-20">
+      <section id="contact" className="w-full min-h-3/4 lg:min-h-screen flex flex-col items-center bg-red-50  px-10 my-20  pt-20">
         <AnimatedSection delay={0.4}>
           <div className="bg-white p-10 rounded-lg shadow-2xl max-w-6xl w-full mx-4 flex flex-col lg:flex-row justify-between items-center gap-10">
             {/* Contact Form */}
