@@ -4,28 +4,28 @@ const Data = [
   {
     id: "1",
     img: "./c1.png",
-    name: "Budda Sreekanth Reddy", // Fixed typo: `namme` -> `name`
+    name: "Mr. Budda Sreekanth Reddy", // Fixed typo: `namme` -> `name`
   },
   {
     id: 2,
     img: "./c2.jpg",
-    name: "Somesh Saini"
+    name: "Mr. Somesh Saini"
   },
   {
     id: 3,
-    img: "./c3.png",
-    name: "Dr. Swati Sharma"
+    img: "./c3.jpeg",
+    name: "Mr. Nagendra"
   },
   {
     id: 4,
-    img: "./c4.jpg", // Added file extension
-    name: "Dr. Harshit Jain"
+    img: "./c4.jpeg", // Added file extension
+    name: "Mr. Yuktaahara"
   },
-  {
-    id: 5,
-    img: "./c5.jpg",
-    name: "Dr. Shambhu Reddy"
-  }
+  // {
+  //   id: 5,
+  //   img: "./c5.jpg",
+  //   name: "Dr. Shambhu Reddy"
+  // }
 ];
 
 export default function Coaches() {
