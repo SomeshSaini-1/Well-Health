@@ -24,7 +24,6 @@ export default function Home() {
   const [read, setRead] = useState("");
  
   return (
-    <div>
           <main id="philosophy" className='w-full min-h-screen gap-4
            grid grid-cols-1 lg:grid-rows-2 lg:grid-cols-2 items-center justify-center mx-10 my-20 pt-20'>
 
@@ -47,7 +46,7 @@ export default function Home() {
               </p>
             </motion.div>
 
-            <div className='flex items-center justify-center '>
+            <div className='flex items-center justify-center h-auto lg:min-h-[25rem]'>
               <AnimatePresence mode='wait'>
                 <motion.div
                   key={currentIndex}
@@ -88,6 +87,5 @@ export default function Home() {
             </AnimatedSection>
 
           </main>
-    </div>
   );
 }
