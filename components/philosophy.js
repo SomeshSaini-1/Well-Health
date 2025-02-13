@@ -1,4 +1,3 @@
-import { useEffect } from 'react';
 import AnimatedSection from '../components/AnimatedSection';
 
 export default function Home() {

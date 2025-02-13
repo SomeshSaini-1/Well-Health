@@ -1,5 +1,4 @@
 import AnimatedSection from './AnimatedSection';
-import { motion } from 'framer-motion';
 
 const mindfulnessImage = './mindfulness.jpg';
 const nutritionImage = './nutrition.jpg';

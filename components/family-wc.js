@@ -1,7 +1,6 @@
-import { useEffect } from 'react';
 import AnimatedSection from '../components/AnimatedSection';
 
-export default function Home() {
+export default function FamilyWC() {
   // Smooth scroll to sections when clicking navbar links
 
   return (
