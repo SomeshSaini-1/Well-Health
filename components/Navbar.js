@@ -10,7 +10,7 @@ const Nav = () => {
         <a href="#hii" className="text-gray-800 hover:text-teal-400 transition-all">DEV.TO</a>
       </h1>
       <nav>
-        <ul className="flex items-center space-x-5">
+        <ul className="flex flex-col lg:flex-row items-center space-x-5">
           <li className="text-gray-700 hover:text-green-500 transition-all cursor-pointer">
             <a href="#philosophy">The Philosophy</a>
           </li>
