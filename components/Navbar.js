@@ -7,7 +7,7 @@ const Nav = () => {
   const [show, setShow] = useState(false);
 
   return (
-    <header className="flex justify-between items-center p-5 fixed top-0 w-full bg-white shadow-md z-50">
+    <header className="flex justify-between items-center p-5 sticky top-0 w-full bg-white shadow-md z-50">
       <h1 id="nav-title" className="text-xl">
         <a href="#hii" className="text-gray-800 hover:text-teal-400 transition-all">DEV.TO</a>
       </h1>
